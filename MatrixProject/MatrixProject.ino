@@ -486,7 +486,7 @@ byte shopState = 1;
 
 
 
-byte numOfMaps = 1;
+byte numOfMaps = 4;
 byte currMap = 1;
 const byte mulLevel[13] = {
   1, 2, 3, 3, 4, 5, 10, 3, 5, 6, 5, 10, 12
@@ -1994,6 +1994,7 @@ void ExitGameOnLose() { //// Handle lose - display messages and clean
   numOfMaps = 1;
   shootIntervalEnemy = 1000;
   numOfCoins = 0;
+  currMap = 1;
   
   maxNote = 16;
   currNote = 7;
