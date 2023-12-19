@@ -486,7 +486,7 @@ byte shopState = 1;
 
 
 
-byte numOfMaps = 4;
+byte numOfMaps = 1;
 byte currMap = 1;
 const byte mulLevel[13] = {
   1, 2, 3, 3, 4, 5, 10, 3, 5, 6, 5, 10, 12
