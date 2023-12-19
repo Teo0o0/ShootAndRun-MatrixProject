@@ -2000,6 +2000,8 @@ void ExitGameOnLose() { //// Handle lose - display messages and clean
   currNote = 7;
   song1 = HIGH;
   if(soundState) Song1();
+
+  playerBullet1.shot = false;
 }
 
 void EnterName() { /// routine for changing name
@@ -2094,6 +2096,7 @@ void ExitGameOnWin() { //// Handle win - display messages and clean
   currNote = -1;
   song1 = HIGH;
   if(soundState) Song1();
+  playerBullet1.shot = false;
 }
 
 
